@@ -3,7 +3,7 @@ package Test::Approximate;
 use strict;
 use warnings;
 
-our $VERSION = 0.004;
+our $VERSION = 0.005;
 
 use POSIX qw( strtod );
 use Test::Builder;
@@ -151,7 +151,7 @@ __END__
 
 =head1 NAME
 
-    Test::Approximate -- compare two number for approximate equality, deeply
+Test::Approximate -- compare two number for approximate equality, deeply
 
 =head1 SYNOPSIS
 
@@ -175,9 +175,9 @@ __END__
 
 =head1 DESCRIPTION
 
-    This module can test two single string or number numberic approximate equal,and deeply test two array or hash or array of hash etc.
+This module can test two scalar string or number numberic approximate equal, and deeply test two array or hash or array of hash etc.
 
-    There is already a nice module do this -- L<Test::Approx>. I wrote this one because L<Test::Approx> can't do a deeply test, and I have not found a module do the same thing.
+There is already a nice module do this -- L<Test::Approx>. I wrote this one because L<Test::Approx> can't do a deeply test, and I have not found a module do the same thing.
 
 =head1 FUNCTIONS
 
@@ -204,6 +204,8 @@ To determine which:
 This function is used to do a deelpy approximate test, with L<Test::Deep>
 
     cmp_deeply($got, approx($expected, '1%'), 'test msg')
+
+=back
 
 =head1 EXPORTS
 
