@@ -1,0 +1,25 @@
+---
+abstract: 'Test and deeply test two number is approximate equality'
+author:
+  - 'tadegenban <tadegenban@gmail.com>'
+build_requires:
+  Test::Deep: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.133380'
+license: bsd
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Test-Approximate
+requires:
+  Exporter: 0
+  POSIX: 0
+  Test::Builder: 0
+  Test::Deep::Cmp: 0
+  base: 0
+  strict: 0
+  warnings: 0
+version: 0.003
