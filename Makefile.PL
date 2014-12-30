@@ -20,19 +20,9 @@ my %WriteMakefileArgs = (
   "LICENSE" => "bsd",
   "NAME" => "Test::Approximate",
   "PREREQ_PM" => {
-    "Exporter" => 0,
-    "POSIX" => 0,
-    "Test::Builder" => 0,
-    "Test::Deep::Cmp" => 0,
-    "base" => 0,
-    "strict" => 0,
-    "warnings" => 0
+    "Test::Builder" => 0
   },
-  "TEST_REQUIRES" => {
-    "Test::Deep" => 0,
-    "Test::More" => 0
-  },
-  "VERSION" => "0.006",
+  "VERSION" => "0.008",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -40,15 +30,7 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Exporter" => 0,
-  "POSIX" => 0,
-  "Test::Builder" => 0,
-  "Test::Deep" => 0,
-  "Test::Deep::Cmp" => 0,
-  "Test::More" => 0,
-  "base" => 0,
-  "strict" => 0,
-  "warnings" => 0
+  "Test::Builder" => 0
 );
 
 
