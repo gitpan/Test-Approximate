@@ -20,9 +20,10 @@ my %WriteMakefileArgs = (
   "LICENSE" => "bsd",
   "NAME" => "Test::Approximate",
   "PREREQ_PM" => {
-    "Test::Builder" => 0
+    "Test::Deep" => "0.114",
+    "Test::Simple" => "1.001014"
   },
-  "VERSION" => "0.008",
+  "VERSION" => "0.009",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -30,7 +31,8 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Test::Builder" => 0
+  "Test::Deep" => "0.114",
+  "Test::Simple" => "1.001014"
 );
 
 
